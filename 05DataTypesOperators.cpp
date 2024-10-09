@@ -13,7 +13,7 @@ int main() {
     float difference = num1 - num2;
     float product = num1 * num2;
     float quotient = (num2 != 0) ? num1 / num2 : 0; 
-    int remainder = (num2 != 0) ? static_cast<int>(num1) % static_cast<int>(num2) : 0; 
+    int remainder = (num2 != 0) ? (num1) % (num2) : 0; 
 	
     cout << "Sum: " << sum << endl;
     cout << "Difference: " << difference << endl;
